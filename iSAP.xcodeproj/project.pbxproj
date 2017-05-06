@@ -10,10 +10,11 @@
 		CF2062EA1EB464FE00CF3386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2062E91EB464FE00CF3386 /* AppDelegate.swift */; };
 		CF2062EC1EB464FE00CF3386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2062EB1EB464FE00CF3386 /* ViewController.swift */; };
 		CF2062EF1EB464FE00CF3386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2062ED1EB464FE00CF3386 /* Main.storyboard */; };
-		CF2062F11EB464FE00CF3386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2062F01EB464FE00CF3386 /* Assets.xcassets */; };
 		CF2062F41EB464FE00CF3386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2062F21EB464FE00CF3386 /* LaunchScreen.storyboard */; };
 		CF2062FF1EB464FE00CF3386 /* iSAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2062FE1EB464FE00CF3386 /* iSAPTests.swift */; };
 		CF20630A1EB464FE00CF3386 /* iSAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2063091EB464FE00CF3386 /* iSAPUITests.swift */; };
+		CF2063181EB5D6D200CF3386 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF2063171EB5D6D200CF3386 /* Settings.bundle */; };
+		CFD6A4EC1EB7B47600317278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD6A4EB1EB7B47600317278 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		CF2062E91EB464FE00CF3386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2062EB1EB464FE00CF3386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF2062EE1EB464FE00CF3386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF2062F01EB464FE00CF3386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2062F31EB464FE00CF3386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2062F51EB464FE00CF3386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2062FA1EB464FE00CF3386 /* iSAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +47,8 @@
 		CF2063051EB464FE00CF3386 /* iSAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2063091EB464FE00CF3386 /* iSAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSAPUITests.swift; sourceTree = "<group>"; };
 		CF20630B1EB464FE00CF3386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2063171EB5D6D200CF3386 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CFD6A4EB1EB7B47600317278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +99,11 @@
 		CF2062E81EB464FE00CF3386 /* iSAP */ = {
 			isa = PBXGroup;
 			children = (
+				CFD6A4EB1EB7B47600317278 /* Assets.xcassets */,
 				CF2062E91EB464FE00CF3386 /* AppDelegate.swift */,
 				CF2062EB1EB464FE00CF3386 /* ViewController.swift */,
 				CF2062ED1EB464FE00CF3386 /* Main.storyboard */,
-				CF2062F01EB464FE00CF3386 /* Assets.xcassets */,
+				CF2063171EB5D6D200CF3386 /* Settings.bundle */,
 				CF2062F21EB464FE00CF3386 /* LaunchScreen.storyboard */,
 				CF2062F51EB464FE00CF3386 /* Info.plist */,
 			);
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					CF2062E51EB464FE00CF3386 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 76K74C3447;
 						ProvisioningStyle = Automatic;
 					};
 					CF2062F91EB464FE00CF3386 = {
@@ -232,8 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2063181EB5D6D200CF3386 /* Settings.bundle in Resources */,
 				CF2062F41EB464FE00CF3386 /* LaunchScreen.storyboard in Resources */,
-				CF2062F11EB464FE00CF3386 /* Assets.xcassets in Resources */,
+				CFD6A4EC1EB7B47600317278 /* Assets.xcassets in Resources */,
 				CF2062EF1EB464FE00CF3386 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,11 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76K74C3447;
 				INFOPLIST_FILE = iSAP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.spoint.iSAP.iSAP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -424,11 +432,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76K74C3447;
 				INFOPLIST_FILE = iSAP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.spoint.iSAP.iSAP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +516,7 @@
 				CF2063101EB464FE00CF3386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2063111EB464FE00CF3386 /* Build configuration list for PBXNativeTarget "iSAPTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				CF2063131EB464FE00CF3386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2063141EB464FE00CF3386 /* Build configuration list for PBXNativeTarget "iSAPUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				CF2063161EB464FE00CF3386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
